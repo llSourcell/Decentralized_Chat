@@ -21,3 +21,8 @@ Finally, start the example with:
     $ npm run dev
 
 The example should be started and the application will be available at `http://localhost:8080`.
+
+
+## Credits 
+
+Credits for this code go to [gballer](https://github.com/gballet/whisper-chat-example). I've merely created a wrapper to get people started. 
