@@ -1,0 +1,26 @@
+{
+  "name": "whisper-chat-example",
+  "version": "1.0.0",
+  "description": "This example demonstrates how to build a whisper(v5)-based chat.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot"
+  },
+  "author": "Guillaume Ballet",
+  "license": "Unlicense",
+  "dependencies": {
+    "vue": "^2.4.2",
+    "web3": "^1.0.0-beta.18"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "web3": "^1.0.0-beta.18",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
