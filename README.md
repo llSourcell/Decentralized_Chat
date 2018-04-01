@@ -1,6 +1,6 @@
 # whisper-chat-example
 
-This demonstrates how to use the Ethereum Whisper (v5) API.
+This demonstrates how to use the Ethereum Whisper (v5) API. This is the code for [this](https://github.com/llSourcell/Decentralized_Chat) video on Youtube by Siraj Raval
 
 ## Running the example
 
