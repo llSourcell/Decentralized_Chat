@@ -1,23 +1,18 @@
 <template>
 	<div>
-		Asymetric key id: {{keyId}}<br>
-		Public key: {{pubKey}}
+		Asymetric key id: {{keyId || "Click button to start generating the key"}}<br>
+		My Public key: {{pubKey || ""}}
+		<p><button v-if="!keyId" @click="generateKey">Generate Asym Keys</button></p>
 	</div>
 </template>
 
 <script>
 export default {
 	props: ["pubKey", "keyId"],
-	data() {
-		return {
-			/*keyId: this.prop.keyId,
-			pubKey: this.prop.pubKey*/
-		};
-	},
 
 	methods: {
 		generateKey() {
-			this.emit('new-keypair');
+			this.$emit('update-asym-key');
 		}
 	}
 }
