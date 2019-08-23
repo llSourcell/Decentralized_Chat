@@ -3,6 +3,7 @@
 		Key generation password: <input v-model="sympw" @input="updateKey" /><br>
 		Symmetric key ID: {{symKeyId || "Type a password to start generating the key"}}
 	</div>
+	
 </template>
 
 <script>
@@ -17,6 +18,7 @@ export default {
 
 	methods: {
 		updateKey() {
+			console.log(this.sympw)
 			this.$emit('update-sym-key', this.sympw);
 		}
 	}
